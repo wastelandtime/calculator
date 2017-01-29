@@ -8,7 +8,7 @@ class CounterBoard extends Component {
     return (
       <View>
         <Text>BELOW SHOULD DISPLAY 0</Text>
-        <Text>{this.prop.count}</Text>
+        <Text>{this.props.count}</Text>
       </View>
     );
   }
